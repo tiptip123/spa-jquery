@@ -3,50 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="jay.css">
+    <title>-My Portfolio-</title>
+    <link rel="stylesheet" href="/css/cliff.css">
 </head>
-<body>
+<body >
+    
     <header>
         <div class="container">
-            <h1>Joseph Jay</h1>
-            <p ><a href="https://www.facebook.com/jjay.baguio.1">@FB:josephjaybaguio</a></p>
+            <h1>-MY PORTFOLIO-</h1>
+            <br>
             <nav>
                 <ul>
-                    <li><a href="#" onclick="navigateTo('home')">Home</a></li>
-                    <li><a href="#" onclick="navigateTo('about')">About</a></li>
-                    <li><a href="#" onclick="navigateTo('projects')">Projects</a></li>
+                    <li><a href="#" onclick="navigateTo('home')">HOME</a></li>
+                    <li>|</li>
+                    <li><a href="#" onclick="navigateTo('about')">ABOUT</a></li>
+                    <li>|</li>
+                    <li><a href="#" onclick="navigateTo('projects')">ACTIVITIES</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <main id="home" class="container" style="display: none; ">
-        <h2>Welcome to My Portfolio!</h2>  
+    <main id="home" class="container-home">
+        <hr>
+        <br> <br> <br>
+        <h2>"BE TEACHABLE, YOU'RE NOT ALWAYS RIGHT"</h2>
+        <br> <br> <br> 
+        <p class="to">jay<3</p>
+        <hr>
+    </main>
+    <main id="about" class="container-about" style="display: none; ">
+
+        <h2 class="activities"> All About Myself<3</h2>
+        "<img class="pic" src="josip.jpg">"
+        <p class="activities">AGE: 22</p>
+        <hr>
+        <p class="activities">ADRESS:</p>
+        <p> Alae Manolo Fortich Bukidnon</p>
+        <hr>
+        <p class="activities">HOBBIES:</p>
+            <li>Coding</li>
+            <li>Listening to music</li>
+            <li>sleeping</li>
+            <li>playing OL games</li>
+            <hr>
+        <P class="activities">LINKS:</P>
+       <tr>
+        <th>@Facebook:</th>
+        <td> <a href="https://www.facebook.com/jjay.baguio.1">Joseph Jay </a></td>
+       </tr>
+       <div>
+       <tr>
+        <th>@Github:</th>
+        <td> <a href="https://github.com/tiptip123">Tiptip123 </a></td>
+       </tr>
+    </div>
+    <div>
+        <tr>
+         <th>@Youtube:</th>
+         <td> <a href="https://www.youtube.com/channel/UCzVl4hk6L2yrnsN-AqArjww">Josip</a></td>
+        </tr>
+     </div>
+    <hr>
     </main>
 
-    <main id="about" class="container" style="display: none;">
-        <h2>About Me</h2>
-        <p>Perfectly imperfect</p>
-        <p></p>
+    <main id="projects" class="container-projects" style="display: none;">
+        <h2 class="activities">ACTIVITIES:</h2>
+           <tr>
+            <td> <a href="https://github.com/tiptip123/IT21c-project/tree/main/src/Abstract">Abstract </a></td>
+           </tr>
+           <div>
+             <td> <a href="https://github.com/tiptip123/IT21c-project/tree/main/src/Abstract_Color_LAB_Exrecise">LAB_exercise_Abstract </a></td>
+          </div>
+           <div>
+             <td> <a href="https://github.com/tiptip123/IT21c-project/tree/main/src/BankAccount">BankAccount </a></td>
+         </div>
+         <div>
+             <td> <a href="https://github.com/tiptip123/IT21c-project/tree/main/src/Employee">Employee </a></td>
+         </div>
+         <div>
+             <td> <a href="https://github.com/tiptip123/IT21c-project/tree/main/src/Encapsulation">Encapsulation </a></td>
+         </div>
+         <div>
+             <td> <a href="https://github.com/tiptip123/IT21c-project/tree/main/src/Inheritance">Inheritance </a></td>
+         </div>
+         <div>
+             <td> <a href="https://github.com/tiptip123/IT21c-project/tree/main/src/Interface">Interface </a></td>
+         </div>
+         <div>
+             <td> <a href="https://github.com/tiptip123/IT21c-project/tree/main/src/LAB_Exercise_Inheritance">LAB_Exercise_inheritance </a></td>
+         </div>
+         <div>
+             <td> <a href="https://github.com/tiptip123/IT21c-project/tree/main/src/LampAndStudent">LampAndStudent </a></td>
+         </div>
+         <div>
+             <td> <a href="https://github.com/tiptip123/IT21c-project/tree/main/src/Polymorphism">Polymorphism </a></td>
+         </div>
+         <div>
+             <td> <a href="https://github.com/tiptip123/IT21c-project/tree/main/src/Sorting">Sorting </a></td>
+         </div>
+         <div>
+             <td> <a href="https://github.com/tiptip123/IT21c-project/tree/main/src/Student">Student </a></td>
+         </div>
+         <hr>
     </main>
-
-    <main id="projects" class="container" style="display: none;">
-        <h2>PROJECTS</h2>
-        <div class="project">
-            <h3>Project 1</h3>
-            <p>This part is not done yet</p>
-        </div>
-        <div class="project">
-            <h3>Project 2</h3>
-            <p>This part is not done yet</p>
-        </div>
-        <div class="project">
-            <h3>Project 3</h3>
-            <p>This part is not done yet</p>
-        </div>
-    </main>
-
-    <script src="jay.js"></script>
+    <script src="/js/router.js"></script>
 </body>
 </html>

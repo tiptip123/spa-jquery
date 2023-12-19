@@ -8,7 +8,8 @@ body {
 
 .container {
     width: 80%;
-    margin: 0 auto;
+    margin: auto;
+
 }
 
 header {
@@ -84,4 +85,43 @@ main h2{
     header p {
         font-size: 16px;
     }
+}
+.josip{
+    color: rgb(5, 4, 4);
+    font-family: cursive;
+    font-weight: bold;
+    background-image: linear-gradient(to right, rgba(33, 37, 37, 0.685), rgba(190, 203, 255, 0.004));
+    border-bottom-left-radius: 11px;
+    border-top-left-radius: 11px;  
+    text-align: center;
+}
+.container-home{
+    text-align: center;
+    background-color:rgb(253, 249, 244);
+    width: 80%;
+    margin: 0 auto;
+    font-family: cursive;
+}
+.container-about{
+    text-align: center;
+    background-color:rgb(253, 249, 244);
+    width: 80%;
+    margin: 0 auto;
+    color: black;
+    font-family: cursive;
+    font-weight: bold;
+}
+.container-projects{
+    text-align: center;
+    background-color:rgb(253, 249, 244);
+    width: 80%;
+    margin: 0 auto;
+    font-family: cursive;
+    font-weight: bold;
+}
+.to{
+    text-align: right;
+}
+.activities{
+    text-decoration: underline;
 }
