@@ -1,25 +1,52 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Simple jQuery SPA</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="jay.css">
 </head>
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="./css/cliff.css">
-<link rel="stylesheet" href="./css/mystyle.css">
-
 <body>
-
-    <nav>
-        <div class="w3-bar w3-light-grey">
-            <a href="#home" class="w3-bar-item w3-button">Home</a>
-            <a href="#about" class="w3-bar-item w3-button">About Us</a>
+    <header>
+        <div class="container">
+            <h1>Joseph Jay</h1>
+            <p ><a href="https://www.facebook.com/jjay.baguio.1">@FB:josephjaybaguio</a></p>
+            <nav>
+                <ul>
+                    <li><a href="#" onclick="navigateTo('home')">Home</a></li>
+                    <li><a href="#" onclick="navigateTo('about')">About</a></li>
+                    <li><a href="#" onclick="navigateTo('projects')">Projects</a></li>
+                </ul>
+            </nav>
         </div>
-    </nav>
+    </header>
 
-        <div id="content"></div>
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="./js/router.js"></script>
-    
+    <main id="home" class="container" style="display: none; ">
+        <h2>Welcome to My Portfolio!</h2>  
+    </main>
+
+    <main id="about" class="container" style="display: none;">
+        <h2>About Me</h2>
+        <p>Perfectly imperfect</p>
+        <p></p>
+    </main>
+
+    <main id="projects" class="container" style="display: none;">
+        <h2>PROJECTS</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>This part is not done yet</p>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>This part is not done yet</p>
+        </div>
+        <div class="project">
+            <h3>Project 3</h3>
+            <p>This part is not done yet</p>
+        </div>
+    </main>
+
+    <script src="jay.js"></script>
 </body>
 </html>
